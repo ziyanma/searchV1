@@ -1,0 +1,109 @@
+body {font-size: 16px; margin:0px; padding:0px;  color:#444; text-align:left; float:left; width:100%; font-family:微软雅黑;}
+.fr {float: right;}
+.fl {float: left;}
+.pa {position: absolute;}
+.pr {position: relative;}
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+.wrapper{
+	min-height: 667px;
+}
+
+.header{
+	height: 50px;
+	border-bottom: 1px solid #d3d3d3;
+	-webkit-box-align: center;
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    -webkit-align-items: center;
+
+}
+.hd-option{
+	height: 50px;
+	width: 100%;
+    display: table;
+    padding: 0;
+    margin: 0;
+    table-layout: fixed;
+}
+.hd-option li{
+	display: table-cell;
+    position: relative;
+    border-right: #d4d4d4 solid 1px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+.floor{
+	width: 70px; height: 50px;
+	margin: 0; padding: 0;
+	-webkit-flex: 0 0 auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.hd-option .active{
+	color: #5494f8;
+	background-color: #d1dcef;
+}
+.search-bar{
+	height: 55px;
+	width: 100%;
+}
+.sb-main{
+	position: relative;
+	height: 45px;
+	width: 95%;
+	margin: 10px auto;
+	border-radius: 3px;
+	border: 1px solid #4684b1;
+	overflow: hidden;
+}
+.sb-main .sb-button{
+	width: 50px;
+	height:45px;
+	background-color: #4684b1;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+	font-size: 14px;
+}
+.sb-main .sb-text{
+	padding-left: 15px;
+	height:45px;
+	line-height: 45px;
+	color: #aaa;
+	font-size: 14px;
+	border: none;
+}
+
+.sb-main .sb-text:focus{
+	outline:0;
+}
+
+.canvas{
+	width: 100%;
+	background-color: #ddd;
+
+}
+.canvasBox{
+	width: 375px;
+	margin: 0 auto;
+}
+.mCanvas {
+	margin: 0 auto;
+	width: 375px;
+}

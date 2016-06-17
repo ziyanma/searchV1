@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=240, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<title> search </title>
+	<link rel="stylesheet" href="style.css">
+	<script src="http://img.jb51.net/jslib/jquery/jquery14.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./ll.js"></script>
+	<script type="text/javascript" src="./canvas.js"></script>
+	<script type="text/javascript" src="./map.js"></script>
+	<script type="text/javascript" src="./search.js"></script>
+</head>
+<body onload="init();">
+	<div class = "wrapper">
+		<div class = "header">
+			<div><ul class = "hd-option">
+				<li class = "active">
+					<i class="iconfont">&#xe608;</i>
+					<span> 人员</span>
+				</li>
+				<li>
+					<i class="iconfont">&#xe609;</i>
+					<span> 部门</span>
+				</li>
+				<li>
+					<i class="iconfont">&#xe607;</i>
+					<span> 设施</span>
+				</li>
+			</ul></div>
+			<div class = "floor">
+					<span> 5楼</span>
+					<i class="iconfont">&#xe602;</i>
+			</div>
+		</div>
+		<div class = "search-bar">
+			<div class = "sb-main">
+				<div class = "sb-button fr">
+					<div> 搜索 </div>
+				</div>
+				<input id="sb-text" class = "sb-text" placeholder="搜索人员位置" key="name" type="text" autocomplete="off">
+					
+
+			</div>
+		</div>
+		<div class = "canvas">
+			<div class = "canvasBox">
+			<canvas id = "mCanvas" width="375" height = "260" class ="mCanvas"></canvas>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

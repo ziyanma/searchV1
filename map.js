@@ -1,0 +1,37 @@
+function initF5(){
+	if (initialized[5]==1) return;
+	floor[5].push(createObject(0,11,44,360,27,"main"));
+	floor[5].push(createObject(0,15,185,35,30,"main"));
+	//主楼道
+	floor[5].push(createObject(0,46,11,30,204,"elevators"));
+	floor[5].push(createObject(0,299,11,30,33,"elevators"));
+	//+电梯
+	floor[5].push(createObject(0,75,155,46,23,"restarea"));
+	floor[5].push(createObject(0,271,71,23,48,"restarea"));
+	//休息区
+	floor[5].push(createObject(5,12,10,30,30,"restroom"));
+	floor[5].push(createObject(5,333,10,30,30,"restroom"));
+	//卫生间
+	floor[5].push(createObject(2,13,89,29,15,"meet_room"));
+	floor[5].push(createObject(2,13,108,29,15,"meet_room"));
+	floor[5].push(createObject(2,13,127,29,15,"meet_room"));
+	//左侧会议室
+	floor[5].push(createObject(2,124,13,25,27,"meet_room"));
+	floor[5].push(createObject(2,154,13,25,27,"meet_room"));
+	floor[5].push(createObject(2,184,13,25,27,"meet_room"));
+	floor[5].push(createObject(2,214,13,25,27,"meet_room"));
+	floor[5].push(createObject(2,244,13,25,27,"meet_room"));
+	//右侧会议室
+	floor[5].push(createObject(3,13,218,106,35,"SNS"));
+	floor[5].push(createObject(3,80,76,41,75));
+	floor[5].push(createObject(3,80,181,41,72,"SNS"));
+	floor[5].push(createObject(3,125,76,142,43));
+	floor[5].push(createObject(3,298,76,72,43));
+	//部门
+	floor[5].push(createObject(4,17,187,26,26,"elevator"));
+	floor[5].push(createObject(4,48,13,26,26,"elevator"));
+	floor[5].push(createObject(4,301,13,26,26,"elevator"));
+	//电梯
+	initialized[5]=1;
+	//避免重复初始化
+}
